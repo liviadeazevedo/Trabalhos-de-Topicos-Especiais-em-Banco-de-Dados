@@ -1,6 +1,6 @@
 <elemento>
     <nome>HistoricoEscolar</nome>
-    <tipo>Objeto</tipo>
+    <tipo>Object</tipo>
     <elemento>
         <nome>universidade</nome>
         <elemento>
@@ -43,7 +43,7 @@
         <tipoList>
             <elemento>
                 <nome>Periodo</nome>
-                <tipo>Objeto</tipo>
+                <tipo>Object</tipo>
                 <elemento>
                     <nome>anoSemestre</nome>
                     <tipo>String</tipo>           
@@ -70,7 +70,7 @@
                     <tipoList>
                         <elemento>
                             <nome>Disciplina</nome>
-                            <tipo>Objeto</tipo>
+                            <tipo>Object</tipo>
                             <atributoTag>
                                 <nome>categoria</nome>
                                 <range>obrigatoria,optativa,livre escolha,atividade academica</range>
