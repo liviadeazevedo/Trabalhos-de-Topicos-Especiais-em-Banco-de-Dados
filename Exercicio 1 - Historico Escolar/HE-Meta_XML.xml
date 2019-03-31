@@ -29,8 +29,8 @@
         <tipo>String</tipo>           
     </elemento>
     <elemento>
-        <nome>periodoAtual</nome>
-        <tipo>int</tipo>           
+        <nome>horaGeracao</nome>
+        <tipo>String</tipo>           
     </elemento>
     <elemento>
         <nome>codigoAutenticacao</nome>
