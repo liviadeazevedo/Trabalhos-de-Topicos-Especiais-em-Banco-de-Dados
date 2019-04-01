@@ -6,7 +6,7 @@
         <tipo>Object</tipo>
         <elemento>
             <nome>nome</nome>
-            <tipo>string</string>
+            <tipo>String</string>
         </elemento>
         <elemento>
             <nome>abreviacao</nome>
