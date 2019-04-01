@@ -3,7 +3,11 @@
     <tipo>Object</tipo>
     <elemento>
         <nome>universidade</nome>
-        <tipo>String</tipo>
+        <tipo>Object</tipo>
+        <elemento>
+            <nome>nome</nome>
+            <tipo>string</string>
+        </elemento>
         <elemento>
             <nome>abreviacao</nome>
             <tipo>String</tipo>           
