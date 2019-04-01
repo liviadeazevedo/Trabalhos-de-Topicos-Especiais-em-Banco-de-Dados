@@ -1,6 +1,8 @@
 <HistoricoEscolar>
-    <universidade>Universidade Federal Rural do Rio de Janeiro</universidade>
+    <universidade>
+        <nome>Universidade Federal Rural do Rio de Janeiro</nome>
         <abreviacao>UFRRJ</abreviacao>
+    </universidade>
     <curso>Ciência da Computação</curso>
     <aluno>Lívia de Azevedo da Silva</aluno>
     <matricula>2014780348</matricula>
