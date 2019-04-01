@@ -3,11 +3,11 @@
     <tipo>Object</tipo>
     <elemento>
         <nome>universidade</nome>
+        <tipo>String</tipo>
         <elemento>
             <nome>abreviacao</nome>
             <tipo>String</tipo>           
-        </elemento>
-        <tipo>String</tipo>           
+        </elemento>           
     </elemento>
     <elemento>
         <nome>curso</nome>
@@ -94,9 +94,9 @@
                             </elemento>
                             <elemento>
                                 <nome>situacao</nome>
+                                <tipo>String</tipo>
                                 <range>AP,RM,RF,RF,ED,AB,AE,AI,TR,TD,RI,IN</range>
-                                <range categoria = "atividade academica">AC,NC</range>
-                                <tipo>String</tipo>           
+                                <range categoria = "atividade academica">AC,NC</range>           
                             </elemento>
                         </elemento>
                     </tipoList>           
