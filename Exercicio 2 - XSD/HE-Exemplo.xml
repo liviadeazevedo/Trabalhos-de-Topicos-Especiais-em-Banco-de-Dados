@@ -18,21 +18,21 @@
             <creditosObtidos>16</creditosObtidos>
             <crPeriodo>8.45</crPeriodo>
             <disciplinas>
-                <Disciplina categoria = "atividade academica">
+                <AtividadeAcademica>
                     <codigo>AB786</codigo>
                     <nome>LABORATÓRIO DE PROJETO DE SISTEMAS</nome>
                     <creditos>0</creditos>
                     <nota>0.0</nota>
-                    <situacao>NC</situacao>
-                </Disciplina>
+                    <situacaoAA>NC</situacaoAA>
+                </AtividadeAcademica>
 
-                <Disciplina categoria = "atividade academica">
+                <AtividadeAcademica>
                     <codigo>AB787</codigo>
                     <nome>LABORATÓRIO DE COMPUTAÇÃO III</nome>
                     <creditos>0</creditos>
                     <nota>1.0</nota>
-                    <situacao>AC</situacao>
-                </Disciplina>
+                    <situacaoAA>AC</situacaoAA>
+                </AtividadeAcademica>
 
                 <Disciplina categoria = "obrigatoria">
                     <codigo>IM873</codigo>
@@ -75,13 +75,13 @@
             <creditosObtidos>4</creditosObtidos>
             <crPeriodo>9.3</crPeriodo>
             <disciplinas>
-                <Disciplina categoria = "atividade academica">
+                <AtividadeAcademica>
                     <codigo>AB786</codigo>
                     <nome>LABORATÓRIO DE PROJETO DE SISTEMAS</nome>
                     <creditos>0</creditos>
                     <nota>0.0</nota>
-                    <situacao>NC</situacao>
-                </Disciplina>
+                    <situacaoAA>NC</situacaoAA>
+                </AtividadeAcademica>
 
                 <Disciplina categoria = "optativa">
                     <codigo>TM431</codigo>

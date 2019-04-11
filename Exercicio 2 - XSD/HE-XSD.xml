@@ -64,7 +64,13 @@
             <xs:enumeration value="TD"/>
             <xs:enumeration value="RI"/>
             <xs:enumeration value="IN"/>
-            <!--Como representar isso dado que o atributo 'categoria' = "atividade academica"???? -->
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
+
+<xs:element name="situacaoAA">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
             <xs:enumeration value="AC"/>
             <xs:enumeration value="NC"/>
         </xs:restriction>
@@ -106,9 +112,22 @@
     </xs:complexType>
 </xs:element>
 
+<xs:element name="AtividadeAcademica">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="codigo"/>
+            <xs:element ref="nome"/>
+            <xs:element ref="creditos"/>
+            <xs:element ref="nota"/>
+            <xs:element ref="situacaoAA"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
 <xs:element name="disciplinas">
     <xs:complexType>
       <xs:sequence>
+        <xs:element ref="AtividadeAcademica" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="Disciplina" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
