@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:grf="Grafo-Lívia"> 
+
+    <rdf:Description rdf:about="Livro/123">
+        <grf:tipo>Livro</grf:tipo>
+        <grf:atributo>ISBN</grf:atributo>
+        <grf:titulo>Exercicio de RDF</grf:titulo>
+        <grf:nome_autor rdf:resource="Autor/Lívia" />
+        <grf:nome_editora rdf:resource="Editora/Moderna" />
+        <grf:cod_genero rdf:resource="Genero/22" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Genero/22">
+        <grf:tipo>Genero</grf:tipo>
+        <grf:atributo>cod</grf:atributo>
+        <grf:nome>drama</grf:nome>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Editora/Moderna">
+        <grf:tipo>Editora</grf:tipo>
+        <grf:atributo>nome</grf:atributo>
+        <grf:pais_sede>Brasil</grf:pais_sede>
+        <grf:telefone>1111-1111</grf:telefone>
+        <grf:e-mail>moderna@ed.com</grf:e-mail>
+        <grf:endereco>endMod</grf:endereco>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Autor/Lívia">
+        <grf:tipo>Autor</grf:tipo>
+        <grf:atributo>nome</grf:atributo>
+        <grf:nacionalidade>brasileira</grf:nacionalidade>
+        <grf:data_nasc>22/07/1995</grf:data_nasc>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Usuario/333.333.333-33">
+        <grf:tipo>Usuario</grf:tipo>
+        <grf:atributo>CPF</grf:atributo>
+        <grf:nome>Fulano</grf:nome>
+        <grf:telefone>2222-2222</grf:telefone>
+        <grf:e-mail>fulano@mds.com</grf:e-mail>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Emprestimo/#1">
+        <grf:tipo>Emprestimo</grf:tipo>
+        <grf:atributo>union:ISBN_exemplar,num_seq_exemplar,CPF_usuario</grf:atributo>
+        <grf:data_retorno>07/06/2019</grf:data_retorno>
+        <grf:data_empres>01/06/2019</grf:data_empres>
+        <grf:CPF_usuario rdf:resource="Usuario/333.333.333-33" />
+        <grf:ISBN_exemplar rdf:resource="Livro/123" />
+        <grf:num_seq_exemplar rdf:resource="Exemplar/5" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="Exemplar/5">
+        <grf:tipo>Exemplar</grf:tipo>
+        <grf:atributo>num_seq</grf:atributo>
+        <grf:data_aquisicao>23/05/2019</grf:data_aquisicao>
+        <grf:ISBN_livro rdf:resource="Livro/123" />
+    </rdf:Description>
+</rdf:RDF>   
